@@ -8,7 +8,7 @@ Test users currently can't login to my app, so I created this repo demonstrating
 
 ## The expected outcome:
 
-I should be able to login to an Facebook App with a test user (that is linked to that app.)
+I should be able to login to a Facebook App with a test user (that is linked to that app.)
 
 
 ## How to setup the demo app:
