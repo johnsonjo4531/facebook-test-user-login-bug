@@ -1,45 +1,29 @@
-# todos-express-starter
+# Test User Login to App bug with Facebook
 
-This is a starter kit for building a todo app with sign in functionality using
-[Express](https://expressjs.com/), [Passport](https://www.passportjs.org/) and
-[SQLite](https://www.sqlite.org/).
+Started from the [Facebook Tutorial on passportjs.org](https://www.passportjs.org/tutorials/facebook/)
 
-The following is a list of complete, working example apps that have been built
-using this kit as a starting point.
+## The problem:
 
-* [todos-express-password](https://github.com/passport/todos-express-password)
+Test users currently can't login to my app, so I created this repo demonstrating that that's true not only for my app but for any passport.js app.
 
-  Illustrates how to sign in with a username and password.
+## The expected outcome:
 
-* [todos-express-password-flash](https://github.com/passport/todos-express-password-flash)
+I should be able to login to an Facebook App with a test user (that is linked to that app.)
 
-  Illustrates how to sign in with a username and password and use the flash for
-  informative messages.
 
-* [todos-express-google](https://github.com/passport/todos-express-google)
+## How to setup the demo app:
 
-  Illustrates how to sign in with Google via OpenID Connect.
+Prequisites install Node.js and Npm from https://nodejs.org/en/. After that run this in the root directory of this app:
 
-* [todos-express-google-oauth2](https://github.com/passport/todos-express-google-oauth2)
+```
+npm install
+```
 
-  Illustrates how to sign in with Google via OAuth 2.0.
+## How to run the demo app:
 
-* [todos-express-email](https://github.com/passport/todos-express-email)
+This demo app illustrates the above problem and can be run using:
 
-  Illustrates how to sign in with email via magic link.
+```
+npm start
+```
 
-* [todos-express-auth0](https://github.com/passport/todos-express-auth0)
-
-  Illustrates how to implement sign in by integrating with Auth0 via OpenID Connect.
-
-* [todos-express-openidconnect](https://github.com/passport/todos-express-openidconnect)
-
-  Illustrates how to implement sign in by integrating with an identity provider (IdP) via OpenID Connect.
-
-## License
-
-[The Unlicense](https://opensource.org/licenses/unlicense)
-
-## Credit
-
-Created by [Jared Hanson](https://www.jaredhanson.me/)
